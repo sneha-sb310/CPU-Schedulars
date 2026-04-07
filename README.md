@@ -65,10 +65,10 @@ Enter arrival time: 0 1 2
 ---
 
 ## Sample Output
-Process   Waiting Time   Turnaround Time  
-P1        0              5  
-P2        4              7  
-P3        6              14  
+|Process   |Waiting Time   |Turnaround Time  
+|P1        |0              |5  
+|P2        |4              |7  
+|P3        |6              |14  
 
 ---
 
