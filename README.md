@@ -22,7 +22,6 @@ CPU scheduling determines which process gets CPU time when multiple processes ar
 - First Come First Serve (FCFS)
 - Shortest Job First (SJF)
 - Round Robin (RR)
-(Add more if applicable, such as Priority Scheduling or SRTF)
 
 ---
 
@@ -34,41 +33,53 @@ CPU scheduling determines which process gets CPU time when multiple processes ar
 ---
 
 ## Project Structure
+```
 CPU_Schedulars/
 │── main.c / main.cpp
 │── fcfs.c
 │── sjf.c
 │── rr.c
 │── other source files
+```
 
 ---
 
 ## How to Run
 
 ### Clone the repository
+```bash
 git clone https://github.com/sneha-sb310/CPU-Schedulars.git
 cd CPU-Schedulars
+```
 
 ### Compile
+```bash
 gcc main.c -o scheduler
+```
 
 ### Run
+```bash
 ./scheduler
+```
 
 ---
 
 ## Sample Input
-Enter number of processes: 3  
-Enter burst time: 5 3 8  
-Enter arrival time: 0 1 2  
+```
+Enter number of processes: 3
+Enter burst time: 5 3 8
+Enter arrival time: 0 1 2
+```
 
 ---
 
 ## Sample Output
-|Process   |Waiting Time   |Turnaround Time  
-|P1        |0              |5  
-|P2        |4              |7  
-|P3        |6              |14  
+```
+Process   Waiting Time   Turnaround Time
+P1        0              5
+P2        4              7
+P3        6              14
+```
 
 ---
 
